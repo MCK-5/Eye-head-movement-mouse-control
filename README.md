@@ -1,4 +1,4 @@
-# Eye + Head Mouse (local)
+# Mouse using eye and head movement
 
 Camera-based mouse for a desktop computer. Uses head position, approximate pupil position and blink gestures. Experimental assistive technology; not yet validated for accessibility or accuracy.
 

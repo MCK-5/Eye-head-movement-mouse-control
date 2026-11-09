@@ -12,9 +12,26 @@ https://github.com/user-attachments/assets/81ff332e-543a-4890-9000-0acff4e82e5d
 
 ## Requirements
 
-- Laptop/desktop with webcam, graphical desktop, Python **3.10 or 3.11** recommended.
-- Windows, macOS or desktop Linux. Real-world compatibility depends on camera access, OS permissions and installing `dlib`. Headless servers, Colab, and standard Docker containers **cannot** control your local cursor.
-- `dlib` may require CMake and a C++ compiler, especially on Windows. Python 3.11 is recommended to reduce dependency issues. On macOS enable Camera and Accessibility permissions for the terminal/Python app. Linux Wayland may block synthetic mouse control; X11 is generally more compatible.
+1. **Hardware:** Laptop or desktop computer with a functioning webcam and graphical desktop environment.
+
+2. **Python:** Python 3.10 or newer. The application has been successfully tested on **Python 3.14.6 (Windows)**. Compatibility with other Python versions may depend on library availability.
+
+3. **Operating Systems:** Designed for Windows, macOS and desktop Linux. Currently tested on Windows; compatibility with other operating systems has not yet been verified.
+
+4. **Required Libraries:**
+   - OpenCV (`opencv-python`) – Webcam access and image processing.
+   - NumPy (`numpy`) – Numerical calculations.
+   - dlib (`dlib` or compatible `dlib-bin`) – Facial landmark detection.
+   - PyAutoGUI (`pyautogui`) – Cursor movement and mouse clicks.
+
+5. **Facial Landmark Model:** The `shape_predictor_68_face_landmarks.dat` model is required and must be downloaded separately.
+
+6. **Additional Notes:**
+   - Windows users running Python 3.14 can use `dlib-bin`, as tested during development.
+   - Building `dlib` from source may require CMake and a C++ compiler.
+   - macOS users may need to grant Camera and Accessibility permissions.
+   - Some Linux Wayland environments restrict automated mouse control; X11 is generally more compatible.
+   - Google Colab and standard headless Docker environments cannot directly control the user's local mouse.
 
 ## Install
 

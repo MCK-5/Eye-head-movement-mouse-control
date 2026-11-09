@@ -2,6 +2,14 @@
 
 Camera-based mouse for a desktop computer. Uses head position, approximate pupil position and blink gestures. Experimental assistive technology; not yet validated for accessibility or accuracy.
 
+## Video Demonstration
+
+Watch the Eye and Head Movement Mouse Controller
+in action, demonstrating hands-free cursor movement
+using head and eye tracking.
+
+https://github.com/user-attachments/assets/81ff332e-543a-4890-9000-0acff4e82e5d
+
 ## Requirements
 
 - Laptop/desktop with webcam, graphical desktop, Python **3.10 or 3.11** recommended.
